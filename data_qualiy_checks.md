@@ -754,7 +754,7 @@ print(receipts_final.head())
 
 ***Data Quality Issues:*** Upon exploring the dataset, the data quality issues addressed are,
 - parsed nested json values to tabular format and concatenated to original dataset
-- changed the incorrect data types of the columns to appropriate data types.
+- changed the incorrect data types of the columns to appropriate data types. ASsuming missing values are valid for those have total spend is 0 which implies no transcation made
 
 
 ```python
